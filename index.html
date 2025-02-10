@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Валентика Лере</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="images/catflower.jpg"></img>
+            <h1 class="hh" id="name">Привет, красотка!</h1>
+            <p class="pp" id="question">Будешь ли ты моей Валентинкой?</p>
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('No')">Нет</button>
+                <button onclick="showMessage('Yes')" id="yesButton">Да</button>
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>Хорошая попытка, но увы!</p>
+            </div>
+            <div class="hidden-message" id="yes-message">
+                <p>ЛЕЕТС ГООУУУ Увидимся на лепке, Лерочка😘😘</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
